@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Navigation Bar</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav>
+        <a class="brand" href="#home">Brand</a>
+        <button id="menu-button" class="secondary" type="button">Menu</button>
+        <div id="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <div class="dropdown">
+            <button id="dropdown-button" type="button">Products ▾</button>
+            <div id="dropdown-menu" hidden>
+              <a href="#web">Web</a>
+              <a href="#mobile">Mobile</a>
+            </div>
+          </div>
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <main class="card">
+      <h1 id="home">Responsive navigation</h1>
+      <p>Resize the browser (or use DevTools device mode) to check 320px, 768px and desktop widths.</p>
+    </main>
+  </body>
+</html>
